@@ -11,8 +11,8 @@ export class ProjectEntity{
     team_name:string
     @Column({type:'text',name:'description',nullable:false})
     description:string
-    @Column({type:'text',name:'migration_test',nullable:false})
-    migration_test:string
+    // @Column({type:'text',name:'migration_test',nullable:false})
+    // migration_test:string
     // @Column({type:'uuid',name:'created_date',nullable:false})
     // created_date:string
 }
